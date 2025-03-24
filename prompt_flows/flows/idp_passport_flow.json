@@ -221,7 +221,7 @@
         "Inputs": [
           {
             "Expression": "$.data",
-            "Name": "licence_details",
+            "Name": "passport_details",
             "Type": "String"
           },
           {
