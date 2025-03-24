@@ -213,7 +213,7 @@
           "Prompt": {
             "SourceConfiguration": {
               "Resource": {
-                "PromptArn": "${DriversLicenseCheckPromptArn}"
+                "PromptArn": "${PassportCheckPromptArn}"
               }
             }
           }
