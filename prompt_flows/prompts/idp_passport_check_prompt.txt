@@ -1,0 +1,7 @@
+Check the expiration date for this passport and ensure that it has not expired. 
+<passport>
+{{passport_details}}
+</passport>
+Todays date is {{date}}
+If the passport has expired, write a friendly email to the customer explaining the problem and asking them to submit a valid document. 
+If the passport has not expired, retrun: DOC_OK

@@ -527,6 +527,9 @@ Resources:
         DRIVERS_LICENSE: 
           flow_id: !GetAtt DriversLicenseFlow.Id
           flow_alias_id: !GetAtt DriversLicenseFlowAlias.Id
+        PASSPORT:
+          flow_id: !GetAtt PassportFlow.Id
+          flow_alias_id: !GetAtt PassportFlowAlias.Id
         URLA_1003:
           flow_id: !GetAtt URLA1003Flow.Id
           flow_alias_id: !GetAtt URLA1003FlowAlias.Id
@@ -559,5 +562,5 @@ Outputs:
     Value: !Sub aws s3 sync ./sample_files/customer123 s3://${SourceS3Bucket}/customer123
   GetResultFiles:
     Description: "Command to download result files"
-    Value: !Sub aws s3 sync s3://${DestinationS3Bucket}/customer123 ./result_files/customer123 
+    Value: !Sub aws s3 sync s3://${DestinationS3Bucket}/customer123./result_files/customer123 
     
