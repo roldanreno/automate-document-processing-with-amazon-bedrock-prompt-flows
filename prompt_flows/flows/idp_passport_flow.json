@@ -52,7 +52,7 @@
         "Configuration": {
           "Data": {
             "SourceOutput": "modelCompletion",
-            "TargetInput": "licence_details"
+            "TargetInput": "passport_details"
           }
         },
         "Name": "map_to_jsonPromptsNode0Toanalyze_docPromptsNode0",
